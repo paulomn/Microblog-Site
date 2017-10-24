@@ -1,0 +1,112 @@
+/*Clean default format from every element*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/***************End Clean****************/
+
+
+/******Style for general elements********/
+body {
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f3f3f3;
+}
+
+h2 {
+    color: #b9c941;
+}
+/***************End style****************/
+
+
+/****************Classes*****************/
+.green {
+    color: #b9c941;
+}
+
+.postDate {
+    font-size: 14px;
+    border-bottom: 1px #f4f4f4 solid;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.postImage {
+    float: left;
+    margin: 0px 10px 5px 0px;
+}
+
+.posted {
+    border-left: 5px #d8d8d8 solid;
+    padding-left: 5px;
+    display: block;
+    margin-top: 15px;
+    font-size: 12px;
+}
+/**************End classes***************/
+
+
+/***********Specific elements************/
+#navigation {
+    background: #fff;
+    border-bottom: 1px #d8d8d8 solid;
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+#menu {
+    float: right;
+    padding: 12px 0; /*centered menu in the bar*/
+}
+
+#logo {
+    float: left;
+}
+
+#area {
+    width: 720px;
+    margin: 0 auto; /*centered menu on screen*/
+}
+
+#mainArea {
+    width: 720px;
+    margin: 55px auto 10px auto; /*centered menu on screen*/
+
+}
+
+#posts {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/***********Specific elements************/
+
+
+/**************Menu format***************/
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+a:link {
+    color: #838383;
+}
+
+a:visited {
+    color: #838383;
+}
+
+a:hover {
+    background: #b9c941;
+    color: #fff;
+}
+
+a:active {
+    color: #535353;
+}
+/**************End menu***************/
+
